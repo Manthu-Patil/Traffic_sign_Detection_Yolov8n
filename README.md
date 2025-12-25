@@ -78,6 +78,8 @@ Training Design Choices
 - CPU training → hardware-agnostic and reproducible
 - 50 epochs → balance between convergence and overfitting
 
+<img width="1536" height="1024" alt="Model results" src="https://github.com/user-attachments/assets/5a0e1390-7066-4b59-ae60-522b4b2aa3a5" />
+
 ![train_batch1](https://github.com/user-attachments/assets/8f3107f1-f038-4649-a1e6-d2858ca12a8a)
 ![val_batch2_pred](https://github.com/user-attachments/assets/5b9abc96-22e5-40bd-853a-9a690f8996b0)
 ![val_batch0_pred](https://github.com/user-attachments/assets/ca8f90b3-1425-4740-8d72-ef326a7dccc6)
