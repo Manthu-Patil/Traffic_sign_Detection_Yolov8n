@@ -29,7 +29,8 @@ Details:
 - Converted bounding boxes to YOLO normalized format
 - Generated one .txt label file per image
 
-<img width="1536" height="1024" alt="GTSDB to Yolo conversion format" src="https://github.com/user-attachments/assets/63bc7c75-d6c7-4639-89da-530b47ccc07b" />
+<img width="1536" height="1024" alt="GTSDB to Yolo conversion format" src="https://github.com/user-attachments/assets/c502490a-ad03-467a-bf22-f5699d990333" />
+
 
 # ✅ Step 3 – Annotation Verification
 
@@ -80,9 +81,13 @@ Training Design Choices
 
 <img width="1536" height="1024" alt="Model results" src="https://github.com/user-attachments/assets/5a0e1390-7066-4b59-ae60-522b4b2aa3a5" />
 
-![train_batch1](https://github.com/user-attachments/assets/8f3107f1-f038-4649-a1e6-d2858ca12a8a)
-![val_batch2_pred](https://github.com/user-attachments/assets/5b9abc96-22e5-40bd-853a-9a690f8996b0)
-![val_batch0_pred](https://github.com/user-attachments/assets/ca8f90b3-1425-4740-8d72-ef326a7dccc6)
+![val_batch1_pred](https://github.com/user-attachments/assets/8f2316cf-2b46-40dd-92e6-9d3c1eccd71e)
+![val_batch0_pred](https://github.com/user-attachments/assets/d41cd68a-1e29-4767-bb9f-da58723f53ba)
+
+![val_batch1_pred](https://github.com/user-attachments/assets/11eb9c85-efbd-428c-b7c5-4aa309a7e192)
+
+
+
 
 
 
@@ -103,9 +108,9 @@ Observations:
     - Small object size
     - Limited dataset diversity
 
- <img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/eb67a89d-4597-4f2a-83e6-1503e9da5f6d" />
+<img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/39155c71-7ae8-4d0c-bf55-6850aafe3bcf" />
+<img width="1536" height="1024" alt="Yolov8 metrics" src="https://github.com/user-attachments/assets/12326148-2431-478e-8060-69aa36c15219" />
 
-<img width="1536" height="1024" alt="Yolov8 metrics" src="https://github.com/user-attachments/assets/d1c98f5d-02c9-4c45-8b77-185e33c82fde" />
 
 
 # 🎥 Step 5 – Video Inference
@@ -121,13 +126,14 @@ Details:
 Outputs
 - Traffic_sign_OP1.mp4
 
-https://github.com/user-attachments/assets/e9e1e8b7-23ee-41cf-b7c3-0788e28258a6
+
+https://github.com/user-attachments/assets/2d94b069-b5b4-4f36-9dfb-8e7f08346c2d
 
 
 - Traffic_sign_OP2.mp4
 
+https://github.com/user-attachments/assets/5e831be8-4740-40b7-bb7d-8ee1749778f8
 
-https://github.com/user-attachments/assets/d73c9a43-c313-4f08-9625-e919eebe9352
 - Traffic_sign_OP3.mp4
 
 
@@ -142,7 +148,8 @@ Details:
 - Visualized traffic sign detections in simulator view
 - Enabled vehicle and camera control using keyboard inputs
 
-<img width="996" height="788" alt="Carla_stopsign_detection" src="https://github.com/user-attachments/assets/f76732f8-b51d-49e7-a68e-663f091d0f78" />
+<img width="996" height="788" alt="Carla_stopsign_detection" src="https://github.com/user-attachments/assets/6780b376-5414-44fe-adb7-a5819e117086" />
+
 
 This step validates the model in a realistic driving simulation environment, similar to industry ADAS workflows.
 
